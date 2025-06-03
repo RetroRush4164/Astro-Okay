@@ -21,7 +21,7 @@ let boostCooldownTime = 10;
 
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(windowWidth, windowHeight);
   // Default frame rate
   frameRate(90); 
   
@@ -442,4 +442,7 @@ class Star {
       return false;
     }
   }
+}
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
