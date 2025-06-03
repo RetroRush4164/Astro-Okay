@@ -21,7 +21,7 @@ let boostCooldownTime = 10;
 
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(1920, 1080);
   // Default frame rate
   frameRate(90); 
   
