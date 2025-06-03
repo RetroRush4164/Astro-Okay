@@ -32,7 +32,7 @@ function setup() {
   for (let i = 0; i < 5; i++) {
     let x = random(width);
     let y = random(-100, -10);
-    let size = random(15, 40);
+    let size = random(windowWidth * 0.040, windowWidth * 0.070);
     let speed = random(1, 3);
     asteroids.push(new Asteroid(x, y, size, speed));
   }
