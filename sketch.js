@@ -181,7 +181,7 @@ function createStar() {
 function addNewAsteroid() {
   let x = random(width);
   let y = random(-100, -10);
-  let size = random(15, 40);
+  let size = random(windowWidth * 0.015, windowWidth * 0.03);
   let speed = random(1, 4);
   asteroids.push(new Asteroid(x, y, size, speed));
 }
@@ -300,7 +300,7 @@ function mousePressed() {
     for (let i = 0; i < 5; i++) {
       let x = random(width);
       let y = random(-100, -10);
-      let size = random(15, 40);
+      let size = random(windowWidth * 0.015, windowWidth * 0.03);
       let speed = random(1, 3); // Normal speed
       asteroids.push(new Asteroid(x, y, size, speed));
     }
