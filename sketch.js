@@ -1,5 +1,5 @@
 /*
- -> Created by Ved Patel
+ -> Created by RetroRush
  -> Astro-Okay
  -> Description: A simple space game where you control a ship to collect
     stars while avoiding asteroids. Use arrow keys to move your ship.
@@ -249,7 +249,7 @@ function showGameOver() {
   text("Click to restart", width/2, height/2 + 80);
   textSize(14);
   fill(200);
-  text("Created by Ved Patel", width/2, height - 10);
+  text("Created by RetroRush", width/2, height - 10);
 }
 
 // Check if key presses
